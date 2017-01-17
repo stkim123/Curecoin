@@ -9,6 +9,9 @@ package kr.ac.jbnu.ssel.curecoin;
 
 import java.util.*;
 
+import kr.ac.jbnu.ssel.curecoin.database.Block;
+import kr.ac.jbnu.ssel.curecoin.database.CurecoinDatabaseMaster;
+
 /**
  * This class offers basic functionality for storing transactions until they make it into a block.
  * It could be just an ArrayList<String> inside of MainClass, however it seemed easier and more OOP-ish to give it its own object.

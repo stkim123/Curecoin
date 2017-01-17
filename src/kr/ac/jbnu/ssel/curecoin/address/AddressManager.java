@@ -1,4 +1,4 @@
-package kr.ac.jbnu.ssel.curecoin;
+package kr.ac.jbnu.ssel.curecoin.address;
 /*
  * Curecoin 2.0.0a Source Code
  * Copyright (c) 2015 Curecoin Developers
@@ -9,6 +9,8 @@ package kr.ac.jbnu.ssel.curecoin;
 
 import java.io.*;
 import java.util.*;
+
+import kr.ac.jbnu.ssel.curecoin.MerkleAddressUtility;
 /**
  * Manages all resources associated with addresses. Holds all address private keys, and keeps track of the offset for the default address.
  * Future plans include tracking the consumed signature offset for all addresses, and expanding this class extensively for full multi-address support.

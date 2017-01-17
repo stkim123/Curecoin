@@ -1,4 +1,4 @@
-package kr.ac.jbnu.ssel.curecoin;
+package kr.ac.jbnu.ssel.curecoin.database;
 /*
  * Curecoin 2.0.0a Source Code
  * Copyright (c) 2015 Curecoin Developers
@@ -10,6 +10,9 @@ package kr.ac.jbnu.ssel.curecoin;
 import java.util.*;
 import java.security.*;
 import javax.xml.bind.DatatypeConverter;
+
+import kr.ac.jbnu.ssel.curecoin.Certificate;
+import kr.ac.jbnu.ssel.curecoin.MerkleAddressUtility;
 
 /**
  * This class provides all functionality related to block verification and usage.

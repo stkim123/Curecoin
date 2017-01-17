@@ -10,6 +10,12 @@ import java.io.*;
 import java.awt.*;
 import java.util.*;
 
+import kr.ac.jbnu.ssel.curecoin.address.AddressManager;
+import kr.ac.jbnu.ssel.curecoin.database.Block;
+import kr.ac.jbnu.ssel.curecoin.database.CurecoinDatabaseMaster;
+import kr.ac.jbnu.ssel.curecoin.peer.PeerNetwork;
+import kr.ac.jbnu.ssel.curecoin.peer.RPC;
+
 /**
  * Welcome to the Curecoin 2.0.0a5 source code! MainClass stitches all of the separate components together to make everything work.
  * Quick overview of the program's structure:

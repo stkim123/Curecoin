@@ -1,4 +1,4 @@
-package kr.ac.jbnu.ssel.curecoin;
+package kr.ac.jbnu.ssel.curecoin.database;
 /*
  * Curecoin 2.0.0a Source Code
  * Copyright (c) 2015 Curecoin Developers
@@ -9,6 +9,8 @@ package kr.ac.jbnu.ssel.curecoin;
 
 import java.io.*;
 import java.util.*;
+
+import kr.ac.jbnu.ssel.curecoin.LedgerManager;
 
 /**
  * Only one Blockchain object is created per instance of the daemon. It keeps track of ALL possible chains, and internally handles chain reorganization.
