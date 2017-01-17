@@ -1,3 +1,4 @@
+package kr.ac.jbnu.ssel.curecoin;
 /*
  * Curecoin 2.0.0a Source Code
  * Copyright (c) 2015 Curecoin Developers
